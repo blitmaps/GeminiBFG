@@ -9,7 +9,11 @@ This application was written entirely by Gemini, with some extensive prompting b
 
 ```"While I generated the text for the license based on the standard MIT License template, I'm an AI and can't be a copyright holder.
 
-The [Full Name] placeholder is for the actual human developer or organization that holds the copyright to the software this license will be applied to. They are the ones who would "sign" it by putting their name and the year in the designated spots. 😊
+The [Full Name] placeholder is for the actual human
+developer or organization that holds the copyright to 
+the software this license will be applied to. They 
+are the ones who would "sign" it by putting their name 
+and the year in the designated spots. 😊
 
 ```
 
