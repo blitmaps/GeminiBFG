@@ -305,7 +305,7 @@ class FontRasterizerApp:
         for i, char in enumerate(characters_to_rasterize):
             col, row = i % cols, i // cols
             x, y = (col * cell_w) + offset_x, (row * cell_h) + offset_y
-            d.text((x, y), char, font=font, fill=text_color, anchor="lt")
+            d.text((x, y), char, font=font, fill=text_color)#, anchor="lt")
         if with_grid_guides:
             for r in range(1, rows): d.line([(0, r*cell_h), (img_w, r*cell_h)], fill=self.grid_line_color)
             for c in range(1, cols): d.line([(c*cell_w, 0), (c*cell_w, img_h)], fill=self.grid_line_color)
